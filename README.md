@@ -1,11 +1,16 @@
 # chip8-emulator
 An implementation of the CHIP-8 emulator written in C. 
 
-Compiles on MacOS. Depends on SDL2.
+Compiles on MacOS and on Linux. Depends on [SDL2](https://www.libsdl.org/).
+
+## Install dependencies
+Just use your favourite package manager to install SDL2 libaray.
+For example:
+```bash
+  $ brew install sdl2
+```
 
 ## Build
-In order to build the emulator you should have [SDL2](https://www.libsdl.org/download-2.0.php) framework installed.
-
 ```bash
   $ make
 ```
